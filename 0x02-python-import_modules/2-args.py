@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-import sys
-argument = sys.argv
-argLength = len(argument)
+if __name__ == "__main__":
+    import sys
+    argument = sys.argv
+    argLength = len(argument)
 
 if (argLength == 0):
     print("{} {}{}".format(argLength - 1, "arguments", "."))

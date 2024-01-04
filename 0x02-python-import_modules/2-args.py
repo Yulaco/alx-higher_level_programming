@@ -5,11 +5,11 @@ if __name__ == "__main__":
     argLength = len(argument)
 
 if (argLength == 1):
-    print("{} {}{}".format(argLength - 1, "argument", ":"))
+    print("{} {}{}".format(argLength - 1, "argument", "."))
 elif (argLength == 2):
     print("{} {}{}".format(argLength - 1, "arguments", ":"))
 else:
-    print("{} {}{}".format(argLength - 1, "arguments", "."))
+    print("{} {}{}".format(argLength - 1, "arguments", ":"))
 
 for a in range(1, argLength):
     print("{}{} {}".format(a, ":", argument[a]))

@@ -28,7 +28,6 @@
 		- first_table description:
 			- id INT
 			- name VARCHAR(256)
-		- If the table first_table already exists, your script should not fail
 		- SELECT or SHOW statements not allowed
 
 *5. Full description*
@@ -59,7 +58,6 @@
 			- id INT
 			- name VARCHAR(256)
 			- score INT
-		- If the table second_table already exists, your script should not fail
 		- SELECT and SHOW statements not allowed
 		- Script should create these records:
 			- id = 1, name = “John”, score = 10
